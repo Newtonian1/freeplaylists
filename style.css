@@ -9,7 +9,7 @@
 ul.header {
     padding: 10px;
     border: 2px solid rgb(4, 4, 95);
-    margin: -16px 0 0 -10px;
+    margin: -16px -10px 0 -10px;
     justify-content: space-around;
     background-color: blue;
     flex-basis: auto;
@@ -28,6 +28,7 @@ div.header li {
 
 div.main {
     border: 1px solid red;
+    margin: 0 -10px;
 }
 
 div.sidebar {
