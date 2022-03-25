@@ -1,5 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 24px;
 }
 
 .flex-container {
@@ -7,13 +13,13 @@
 }
 
 ul.header {
-    padding: 10px;
-    border: 2px solid rgb(4, 4, 95);
+    padding: 12px;
     margin: -16px -10px 0 -10px;
+    border-bottom: 3px solid rgb(247, 168, 21);
     justify-content: space-around;
-    background-color: blue;
+    background-color: rgb(4, 4, 95);
     flex-basis: auto;
-    height: 100px;
+    height: 103px;
 }
 
 div.header ul {
@@ -21,9 +27,11 @@ div.header ul {
 }
 
 div.header li {
-    padding: 10px;
-    border: 2px solid rgb(247, 168, 21);
+    padding: 12px;
+    margin-top: 8px;
     color: white;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 div.main {
@@ -32,11 +40,22 @@ div.main {
 }
 
 div.sidebar {
+    width: 600px;
     padding: 10px;
     border: 2px solid rgb(247, 168, 21);
+    flex-direction: column;
 }
 
 div.content {
     padding: 10px;
     border: 2px solid orange;
+    flex-direction: column;
+}
+
+.center-self {
+    align-self: center;
+}
+
+.content-header {
+    margin-bottom: -6px;
 }
